@@ -1,4 +1,4 @@
-=== Alzheimer Teaser ===
+=== Gutenberg Teaser ===
 Contributors:      The WordPress Contributors
 Tags:              block
 Tested up to:      5.8.0
