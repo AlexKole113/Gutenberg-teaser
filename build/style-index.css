@@ -1,0 +1,71 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.teaser-container {
+  --brand-regular-blue: #039fdd;
+  --brand-deep-blue: #053b6d;
+  --brand-gray-blue: #85b0b8;
+  --brand-dark-gray-blue: #4d6272;
+  --brand-white: #ffffff;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  background-color: var(--brand-white);
+  position: relative;
+}
+.teaser-container__image img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.teaser-container__content {
+  padding-left: 10%;
+}
+.teaser-container__content .teaser-post__header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr minmax(80px, 1fr);
+  grid-template-columns: 6fr minmax(80px, 1fr);
+  height: 40px;
+}
+.teaser-container__content .teaser-post__header_main-part {
+  color: var(--brand-gray-blue);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--brand-regular-blue);
+}
+.teaser-container__content .teaser-post__header_add-part {
+  color: var(--brand-white);
+  background-color: var(--brand-regular-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teaser-container__content .teaser-post__title {
+  color: var(--brand-deep-blue);
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+.teaser-container__content .teaser-post__excerpt {
+  margin: 0;
+  color: var(--brand-dark-gray-blue);
+}
+.teaser-container__content .teaser-post__excerpt:before, .teaser-container__content .teaser-post__excerpt:after {
+  display: none;
+}
+.teaser-container__post-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

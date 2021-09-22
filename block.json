@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "alzheimer/teaser",
+	"version": "0.1.0",
+	"title": "Alzheimer Teaser",
+	"category": "widgets",
+	"icon": "admin-post",
+	"description": "Teaser block with content taken from the post.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "alzheimer-teaser",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
